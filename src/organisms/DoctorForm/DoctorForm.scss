@@ -1,0 +1,11 @@
+.wrapper {
+  @apply w-full;
+
+  fieldset {
+    @apply w-[80%] rounded-lg  border border-solid border-gray-300 p-4 mt-4 mx-auto;
+
+    .formfields {
+      @apply grid grid-cols-3 w-full gap-8;
+    }
+  }
+}

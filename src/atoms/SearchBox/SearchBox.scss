@@ -1,0 +1,14 @@
+.search-box {
+  @apply py-3 px-2 border border-solid border-[#47A985] bg-transparent rounded-3xl text-sm font-normal w-[70%];
+  ::placeholder {
+    @apply text-[#afb2d3] text-base font-normal;
+  }
+
+  input {
+    border: none;
+    outline: none;
+    font-weight: 400;
+    color: #393b50;
+    margin-left: 1rem;
+  }
+}

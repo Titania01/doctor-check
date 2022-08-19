@@ -1,0 +1,17 @@
+.input-style {
+  @apply py-2 px-2 border border-solid border-[#47A985] bg-transparent rounded-md text-sm font-normal w-[70%];
+  ::placeholder {
+    @apply text-[#afb2d3] text-base font-normal bg-transparent;
+  }
+
+  input {
+    border: none;
+    outline: none;
+    font-weight: 400;
+    color: #325749;
+    background: none;
+  }
+}
+input:focus {
+  background-color: none;
+}
